@@ -8,42 +8,42 @@
 
 int main() {
 
-    printf("Super trunfo");
+    printf("Super trunfo\n");
 
     //Declarando variaveis:
 
     int codigo;
     int populacao;
     int pontos_turisticos;
-    char nome;
+    char nome[50];
     float area;
     double pib;
 
     // Cadastro
 
-    printf("Digite o codigo da cidade");
+    printf("Digite o codigo da cidade:");
     scanf("%d", &codigo);
 
-    printf("Digite a populcao");
-    scanf("%d", &populacao);
+    printf("Digite a populcao:");
+    scanf("%d",&populacao);
 
-    printf("Digite o numero de pontos turisticos");
-    scanf("%d", &pontos_turisticos);
+    printf("Digite o numero de pontos turisticos:");
+    scanf("%d",&pontos_turisticos);
 
-    printf("Digite o nome da cidade");
-    scanf("%s", &nome);
+    printf("Digite o nome da cidade:");
+    scanf("%s", nome);
 
-    printf("Digite a area da cidade");
+    printf("Digite a area da cidade:");
     scanf("%f", &area);
 
-    printf("Digite o PIB da cidade");
+    printf("Digite o PIB da cidade:");
     scanf("%f", &pib);
 
     //impressão
 
     printf("Codigo:, %d\n", codigo);
     printf("Populacao:, %d\n", populacao);
-    printf("Numeros de Pontos Turisticos:, %d", pontos_turisticos);
+    printf("Numeros de Pontos Turisticos:, %d\n", pontos_turisticos);
     printf("Nome da Cidade: %s\n", nome);
     printf("Area: %f\n", area);
     printf("PIB, %f\n", pib);
