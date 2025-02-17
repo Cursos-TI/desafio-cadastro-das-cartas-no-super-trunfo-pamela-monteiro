@@ -9,10 +9,30 @@
 int main() {
 printf("Super trunfo");
 
-int codigo cidade;
-float numero de pontos turisticos;
+int codigo cidade,numero de pontos turisticos;
 double area, populacao,pib;
 char nome
+
+printf("Digite nome da cidade");
+scanf("%s"nome);
+
+printf("Digite o codigo da cidade");
+scanf("%d", codigo cidade);
+
+printf("Digite o numero de pontos turiticos");
+scanf("%d", numero de pontos turisticos);
+
+printf("Digite polpulaçõ");
+scanf("%F", populacao);
+
+printf("Digite o pib");
+scanf("%f", pib);
+
+printf("Digite a area");
+scanf("%f", area);
+
+
+
 
 
 
