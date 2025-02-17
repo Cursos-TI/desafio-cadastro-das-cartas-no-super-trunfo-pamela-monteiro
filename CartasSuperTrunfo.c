@@ -7,32 +7,46 @@
 //Teste larissa
 
 int main() {
-printf("Super trunfo");
 
-int codigo cidade,numero de pontos turisticos;
-double area, populacao,pib;
-char nome
+    printf("Super trunfo");
 
-printf("Digite nome da cidade");
-scanf("%s"nome);
+    //Declarando variaveis:
 
-printf("Digite o codigo da cidade");
-scanf("%d", codigo cidade);
+    int codigo;
+    int populacao;
+    int pontos_turisticos;
+    char nome;
+    float area;
+    double pib;
 
-printf("Digite o numero de pontos turiticos");
-scanf("%d", numero de pontos turisticos);
+    // Cadastro
 
-printf("Digite polpulaçõ");
-scanf("%F", populacao);
+    printf("Digite o codigo da cidade");
+    scanf("%d", &codigo);
 
-printf("Digite o pib");
-scanf("%f", pib);
+    printf("Digite a populcao");
+    scanf("%d", &populacao);
 
-printf("Digite a area");
-scanf("%f", area);
+    printf("Digite o numero de pontos turisticos");
+    scanf("%d", &pontos_turisticos);
 
+    printf("Digite o nome da cidade");
+    scanf("%s", &nome);
 
+    printf("Digite a area da cidade");
+    scanf("%f", &area);
 
+    printf("Digite o PIB da cidade");
+    scanf("%f", &pib);
+
+    //impressão
+
+    printf("Codigo:, %d\n", codigo);
+    printf("Populacao:, %d\n", populacao);
+    printf("Numeros de Pontos Turisticos:, %d", pontos_turisticos);
+    printf("Nome da Cidade: %s\n", nome);
+    printf("Area: %f\n", area);
+    printf("PIB, %f\n", pib);
 
 
 
